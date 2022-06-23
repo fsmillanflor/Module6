@@ -1,0 +1,8 @@
+    datetime_object = datetime.now() 
+    def function(f, i, g):
+        print("Feet: ", f)
+        print("Inches: ", i)
+        print(g)
+    f = int(input("Enter feet: "))
+    i = int(input("Enter inches: "))
+    print(function(f,i,datetime_object))
